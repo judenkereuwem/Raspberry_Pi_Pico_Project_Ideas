@@ -6,6 +6,10 @@ Description: This system takes sensor data from Raspberry Pi Pico then logs it i
 Use case: This can be useful in cases like: when you want to gatther sensor data to train an AI model for anormally detection.
 
 
+NOTE:
+If you are new to the Raspberry Pi Pico: check out my [Beginners Tutorials](https://judeok.wixsite.com/placidlearn/raspberry-pi-pico)
+
+
 
 Requirement:
 
