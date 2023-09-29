@@ -1,19 +1,19 @@
 
-Title: Pico data logger to csv file.
+**Title:** Pico data logger to csv file.
 
-Description: This system takes sensor data from Raspberry Pi Pico then logs it into a .csv file on your PC.
+**Description:** This system takes sensor data from Raspberry Pi Pico then logs it into a .csv file on your PC.
 
-Use case: This can be useful in cases like: when you want to gatther sensor data to train an AI model for anormally detection.
+**Use case:** This can be useful in cases like: when you want to gatther sensor data to train an AI model for anormally detection.
 
 
-NOTE:
+**NOTE**
 If you are new to the Raspberry Pi Pico: check out my [Beginners Tutorials](https://judeok.wixsite.com/placidlearn/raspberry-pi-pico)
 
 
 
-Requirement:
+**Requirement:**
 
-Hardaware:
+**Hardaware:**
 - PC
 - Raspberry Pi Pico
 - Compartible USB cable
@@ -22,13 +22,13 @@ Hardaware:
 - Breadboard
 - Jumper cables
 
-Software:
+**Software:**
 - PC: Python 3, IDE of choice, PySerial library (pip install pyserial), Pandas (pip install pandas).
 - Pico: Micropython, Thonny IDE
 
 
 
-Setup:
+**Setup:**
 - Create project folder on your PC - "Pico data logging"
 - Inside the project folder, create an empty folder - named "file". (This is where all your csv filles will be saved)
 - Copy "main.py" code to Thonny IDE then save it as "main.py" inside the Raspberry Pi Pico the exit Thonny.
