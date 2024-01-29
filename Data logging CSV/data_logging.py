@@ -29,7 +29,7 @@ df.to_csv(f"{pathDir}/{filename}", index=False, encoding='utf-8')
 
 #Open csv file and add headers
 with open(f"{pathDir}/{filename}",'r+') as f:
-    f.writelines('Time,Sensor Data')   #file header
+    f.writelines('Time,temp,light,motion')   #file header
     
     while True:
         #Read incomming data from Pico
@@ -42,5 +42,6 @@ with open(f"{pathDir}/{filename}",'r+') as f:
         am_pm = 'am' if d.hour<12 else 'pm'
         dtString = d.strftime('{}:{}:{}:{}'.format(d.hour%12,d.minute,d.second, am_pm))
         f.writelines(f'\n{dtString},{b}')
+        f.flush()
         
     ser.close() 
