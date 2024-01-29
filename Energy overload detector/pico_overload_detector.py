@@ -1,5 +1,9 @@
 
 #Overload protection
+#This project is just a demo to describe an
+#energy source overload protection system.
+#The system checks for the total amount of load (LED) turned on per
+#time and sounds a buzzer is there are above recommended rating
 
 from picozero import LED, Button, Speaker
 from time import sleep
